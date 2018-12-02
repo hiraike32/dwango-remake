@@ -1,0 +1,17 @@
+@import "../../../styles/_colors.scss";
+
+.container {
+  overflow: hidden;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.5rem 0 $base-gray;
+
+  ul {
+    border-bottom: 2px solid $base-black;
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    vertical-align: top;
+  }
+}

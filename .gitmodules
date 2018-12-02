@@ -1,0 +1,3 @@
+[submodule "storybook-static"]
+	path = storybook-static
+	url = https://github.com/hiraike32/storybook-static.git
