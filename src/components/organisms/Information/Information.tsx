@@ -14,7 +14,7 @@ const newInformations: InformationProps[] = [
       "このページはhiraike32がdwango.co.jpを個人的にリメイクしたものです。",
       "Qiita「dwango.co.jpをReact/TypeScript/Storybookでリメイクしてみた。」"
     ],
-    href: "https://qiita.com/hiraike32/c6317aef2805342fc838"
+    href: "https://qiita.com/hiraike32/items/c6317aef2805342fc838"
   },
   {
     type: "info",
