@@ -1,0 +1,13 @@
+@import "../../../../styles/colors";
+
+.date {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+
+  .icon {
+    color: $base-blue;
+    font-size: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}

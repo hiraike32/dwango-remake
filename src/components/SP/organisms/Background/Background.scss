@@ -1,0 +1,80 @@
+@import "../../../../styles/colors";
+
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+  opacity: 0.8;
+
+  .common {
+    position: absolute;
+    height: 1px;
+  }
+
+  .red {
+    background: $bg-color-red;
+    top: 10vh;
+    left: 0;
+    width: 200vw;
+    transform: rotate(75deg);
+    transform-origin: 0 0;
+  }
+
+  .orange {
+    background: $bg-color-orange;
+    top: 70vh;
+    right: 0;
+    width: 150vw;
+    transform: rotate(5deg);
+    transform-origin: 100%;
+  }
+
+  .lime {
+    background: $bg-color-lime;
+    top: 25vh;
+    right: 0;
+    width: 75vw;
+    transform: rotate(60deg);
+    transform-origin: 100%;
+  }
+
+  .green {
+    background: $bg-color-green;
+    top: 80vh;
+    right: 0;
+    width: 130vw;
+    transform: rotate(-20deg);
+    transform-origin: 100%;
+  }
+
+  .sky {
+    background: $bg-color-sky;
+    top: 60vh;
+    right: 0;
+    width: 100vw;
+    transform: rotate(-50deg);
+    transform-origin: 100%;
+  }
+
+  .blue {
+    background: $bg-color-blue;
+    top: 30vh;
+    left: 0;
+    width: 150vw;
+    transform: rotate(-15deg);
+    transform-origin: 0 0;
+  }
+
+  .purple {
+    background: $bg-color-purple;
+    top: 15vh;
+    left: 0;
+    width: 120vw;
+    transform: rotate(5deg);
+    transform-origin: 0 0;
+  }
+}

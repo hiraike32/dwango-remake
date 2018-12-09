@@ -1,0 +1,23 @@
+@import "../../../../styles/media";
+@import "../../../../styles/colors";
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica|Sawarabi+Mincho");
+
+.container {
+  margin-top: 42px;
+
+  .mission {
+    padding: 2rem 0;
+    text-align: center;
+
+    .heading {
+      font-family: "Sawarabi Mincho", sans-serif;
+      font-size: 1.2rem;
+    }
+
+    .text {
+      font-family: "IM Fell Double Pica", serif;
+      font-size: 0.9rem;
+      font-style: italic;
+    }
+  }
+}

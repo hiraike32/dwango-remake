@@ -926,6 +926,19 @@
     global "^4.3.2"
     prop-types "^15.6.2"
 
+"@storybook/addon-viewport@^4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-4.0.12.tgz#54806e6b6559d37d0bc4cf0b78dd0f29a3e1e75b"
+  integrity sha512-CIN+/FQz/VkWLWNzIDXXV0/16YfzzPZRy7pNc9yJ6pqOq02nR/YIScUs8Htyeyp6+FaDOlDIoeKGwUDoaSjnAA==
+  dependencies:
+    "@emotion/styled" "^0.10.6"
+    "@storybook/addons" "4.0.12"
+    "@storybook/components" "4.0.12"
+    "@storybook/core-events" "4.0.12"
+    global "^4.3.2"
+    prop-types "^15.6.2"
+    util-deprecate "^1.0.2"
+
 "@storybook/addons@4.0.10", "@storybook/addons@^4.0.10":
   version "4.0.10"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-4.0.10.tgz#749de4b4286d8997f9c2411e33874b7a87592fb3"
@@ -933,6 +946,16 @@
   dependencies:
     "@storybook/channels" "4.0.10"
     "@storybook/components" "4.0.10"
+    global "^4.3.2"
+    util-deprecate "^1.0.2"
+
+"@storybook/addons@4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-4.0.12.tgz#3e1658875dd042095f4e4e987d385ee8558d8db6"
+  integrity sha512-ID+gaFFg2deybuklXrl7ZjNQ+SRaP5DJP/eri9K0cAIyTitzYg/OR5wxSeqdp5MseP1b3rdAoIW+Hkwf2F0ApA==
+  dependencies:
+    "@storybook/channels" "4.0.12"
+    "@storybook/components" "4.0.12"
     global "^4.3.2"
     util-deprecate "^1.0.2"
 
@@ -949,6 +972,11 @@
   version "4.0.10"
   resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-4.0.10.tgz#ff507f8c6c905f08f80dccd94fc0aba3388390bd"
   integrity sha512-dkTCio9T3xaQRbZ3QR4j6faqybQcm9e1GOS+4Er0HZxwQ4b7neFwGX0WPlB89v78ogXfE7i4JjNsKcwhmUUMcA==
+
+"@storybook/channels@4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-4.0.12.tgz#7698b5365a85b8a57ff018da637c8bc8bb6cc737"
+  integrity sha512-HmdjiTeY9GO3ZTeveaAisbpXE7fMb/T7nRpR8vIJxS/9g87z/RInH88aUnCerfwrz56y+GkqrX5bpO/cAhYNvg==
 
 "@storybook/client-logger@4.0.10":
   version "4.0.10"
@@ -971,10 +999,31 @@
     react-textarea-autosize "^7.0.4"
     render-fragment "^0.1.1"
 
+"@storybook/components@4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-4.0.12.tgz#7174b531efcbea721ac1d90efdfa2a8c79c37e47"
+  integrity sha512-3vTX1ew18lgciV2N4LMyUa+msdSDMTc86pIUxT0wNr6sOxT4J5wJtCUkmUXYskA3tgxtokgt0LkrDfRsQ8I7OA==
+  dependencies:
+    "@emotion/core" "^0.13.1"
+    "@emotion/provider" "^0.11.2"
+    "@emotion/styled" "^0.10.6"
+    global "^4.3.2"
+    lodash "^4.17.11"
+    prop-types "^15.6.2"
+    react-inspector "^2.3.0"
+    react-split-pane "^0.1.84"
+    react-textarea-autosize "^7.0.4"
+    render-fragment "^0.1.1"
+
 "@storybook/core-events@4.0.10":
   version "4.0.10"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-4.0.10.tgz#686b87e6719854ca4183895da5229dc9d9fe1d08"
   integrity sha512-NME5Si0AY0/ii5e3bNtwa/nttwEA0f5ggj3djPfch2Fmp2a2ZIXc8d/tOUR87Ge3PJVNaa36rnMOjlfQPtGfKw==
+
+"@storybook/core-events@4.0.12":
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-4.0.12.tgz#76330bf25e521d69947216815a3695255fade24c"
+  integrity sha512-TWj1xjtBv/0bRH1mPkoWAOexDkFNiBYSlV6BJXo9ozOQUEGnq+3Ii4CLK6HWfKCBL+whJNN+6DHs9CwS7HxuIQ==
 
 "@storybook/core@4.0.10":
   version "4.0.10"
@@ -1179,6 +1228,14 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-swipe@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@types/react-swipe/-/react-swipe-5.0.3.tgz#ea07cdd2d6812640a2111650a2a705c865f82275"
+  integrity sha512-wzWbkAvf6cfyDSDCYAM1+i/VNJpUy77r2lDBCHMCgmsAL0cVuH6059/Zpn+zyZLqtQE8DULbvxP5OU1ioK/a6w==
+  dependencies:
+    "@types/react" "*"
+    "@types/swipe" "*"
+
 "@types/react-transition-group@^2.0.8":
   version "2.0.14"
   resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-2.0.14.tgz#afd0cd785a97f070b55765e9f9d76ff568269001"
@@ -1208,6 +1265,11 @@
   dependencies:
     "@types/react" "*"
     "@types/webpack-env" "*"
+
+"@types/swipe@*":
+  version "2.0.27"
+  resolved "https://registry.yarnpkg.com/@types/swipe/-/swipe-2.0.27.tgz#20316cd9756623ecb36fc2a3a13208aa0a3c2f38"
+  integrity sha1-IDFs2XVmI+yzb8KjoTIIqgo8Lzg=
 
 "@types/webpack-env@*":
   version "1.13.6"
@@ -5120,6 +5182,11 @@ lodash.debounce@^4.0.8:
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
 
+lodash.isequal@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
+  integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
+
 lodash.isplainobject@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
@@ -6588,6 +6655,15 @@ react-style-proptype@^3.0.0:
   dependencies:
     prop-types "^15.5.4"
 
+react-swipe@^6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/react-swipe/-/react-swipe-6.0.3.tgz#ee0f783cedcf9da595c9f04d6e62b99d87756460"
+  integrity sha512-dJJufzNVliiG1uhtJ1M5ST1XBb9j8inT3mKs9NdDOftqcB0mCb8cKXWsfPnui+pbt0MtVW5Y1oEZapk//5pouw==
+  dependencies:
+    lodash.isequal "^4.5.0"
+    prop-types "^15.6.0"
+    swipe-js-iso "^2.1.4"
+
 react-textarea-autosize@^7.0.4:
   version "7.0.4"
   resolved "https://registry.yarnpkg.com/react-textarea-autosize/-/react-textarea-autosize-7.0.4.tgz#4e4be649b544a88713e7b5043f76950f35d3d503"
@@ -7673,6 +7749,11 @@ svg-url-loader@^2.3.2:
   dependencies:
     file-loader "1.1.11"
     loader-utils "1.1.0"
+
+swipe-js-iso@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/swipe-js-iso/-/swipe-js-iso-2.1.4.tgz#172dec43a5cbc13d0a3a4a68284119c267b31990"
+  integrity sha512-MoTwEkDFb9cFqLDROJ/fV8QPk7dwDKuI46t7sLeELRRxJ3h9Cx7fQ1hNdNtvXGCwsVgqhwOcBQR3MC3NZP6+Cg==
 
 symbol-observable@1.2.0, symbol-observable@^1.0.4, symbol-observable@^1.1.0, symbol-observable@^1.2.0:
   version "1.2.0"

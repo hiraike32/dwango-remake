@@ -1,0 +1,28 @@
+@import "../../../../styles/colors";
+
+.container {
+  padding: 1rem 0;
+  border-bottom: dotted 1px $base-gray;
+
+  .head {
+    display: flex;
+    align-items: center;
+  }
+
+  .content {
+    padding-top: 0.75rem;
+    font-size: 0.8rem;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    a {
+      text-decoration: none;
+
+      .text {
+        color: $link-sp-color;
+      }
+    }
+  }
+}
