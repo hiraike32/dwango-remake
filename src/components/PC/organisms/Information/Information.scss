@@ -1,0 +1,29 @@
+@import "../../../../styles/colors";
+
+.container {
+  border: 1px solid $border-gray;
+  box-shadow: 0 0.1rem 0.5rem $border-gray;
+  border-radius: 0.25rem;
+  overflow: hidden;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(
+      $information-top-gray,
+      $information-bottom-gray
+    );
+    text-shadow: 1px 1px $base-white;
+    border-bottom: 1px solid $border-gray;
+  }
+
+  .informationContainer {
+    padding: 1rem;
+
+    .information {
+      border-bottom: 1px dotted $border-gray;
+      padding: 1rem 0;
+    }
+  }
+}

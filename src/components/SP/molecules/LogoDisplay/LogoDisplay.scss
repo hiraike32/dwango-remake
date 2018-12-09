@@ -1,0 +1,39 @@
+@import "../../../../styles/media";
+@import "../../../../styles/colors";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    width: 100%;
+    padding: 0.5rem;
+    animation: shake 4s infinite;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@keyframes shake {
+  40% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+
+  45% {
+    transform: translate(5px, 5px) rotate(2deg) scale(1.2);
+  }
+
+  50% {
+    transform: translate(0, 5px) rotate(0deg) scale(1.2);
+  }
+
+  55% {
+    transform: translate(5px, 0) rotate(-2deg) scale(1.2);
+  }
+
+  60% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+}

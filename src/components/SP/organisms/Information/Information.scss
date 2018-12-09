@@ -1,0 +1,27 @@
+@import "../../../../styles/colors";
+
+.container {
+  padding: 0 1rem;
+
+  .header {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .informationContainer {
+    padding: 1rem;
+
+    .information {
+      border-bottom: 1px dotted $border-gray;
+      padding: 1rem 0;
+    }
+  }
+
+  .button {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+}

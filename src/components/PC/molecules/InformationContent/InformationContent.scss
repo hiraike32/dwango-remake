@@ -1,0 +1,26 @@
+@import "../../../../styles/colors";
+
+.container {
+  display: flex;
+  align-items: flex-start;
+
+  .content {
+    font-size: 0.75rem;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    a {
+      text-decoration-color: $link-font-color;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      .text {
+        color: $link-font-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import "../../../../styles/_colors.scss";
+
+.container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-shadow: 1px 0 0.5rem 0 $base-gray;
+
+  li {
+    flex-shrink: 1;
+    width: 100%;
+    border-right: 1px solid #fff;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
