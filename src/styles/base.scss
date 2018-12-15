@@ -1,5 +1,14 @@
+@import "./media";
+
 html {
-  font-size: 14px;
+  font-size: 16px;
+  @include sp {
+    font-size: 14px;
+  }
+}
+
+body {
+  margin: 0;
 }
 
 div {

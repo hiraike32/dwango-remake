@@ -1,7 +1,7 @@
 import React from "react";
 
-import "../../styles/base.scss";
+import Top from "./pages/Top";
 
-const SpRoot = () => <h1>SP</h1>;
+const SpRoot = () => <Top />;
 
 export default SpRoot;
