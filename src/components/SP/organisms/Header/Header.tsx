@@ -5,36 +5,22 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 import styles from "./Header.scss";
 import logo from "../../../../img/dwango_logo.png";
-import { Hamburger } from "../../molecules";
 
 library.add(faBars);
 
-type State = {
-  isOpen: boolean;
+type Props = {
+  changeMenu: () => void;
 };
 
-class Header extends React.Component<{}, State> {
-  state = {
-    isOpen: false
-  };
-
-  changeMenu = () => {
-    this.setState({ isOpen: !this.state.isOpen });
-  };
-
-  render() {
-    return (
-      <div className={styles.container}>
-        <a href="http://dwango.co.jp/" target="_blank">
-          <img src={logo} />
-        </a>
-        <div className={styles.hamburger} onClick={this.changeMenu}>
-          <FontAwesomeIcon icon="bars" />
-        </div>
-        <Hamburger changeMenu={this.changeMenu} isOpen={this.state.isOpen} />
-      </div>
-    );
-  }
-}
+const Header = ({ changeMenu }: Props) => (
+  <div className={styles.container}>
+    <a href="http://dwango.co.jp/" target="_blank">
+      <img src={logo} />
+    </a>
+    <div className={styles.hamburger} onClick={changeMenu}>
+      <FontAwesomeIcon icon="bars" />
+    </div>
+  </div>
+);
 
 export default Header;
