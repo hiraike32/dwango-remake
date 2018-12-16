@@ -1,4 +1,5 @@
 @import "../../../../styles/colors";
+@import "../../../../styles/z-index";
 
 .container {
   position: fixed;
@@ -12,6 +13,7 @@
   justify-content: center;
   flex-direction: column;
   transition: opacity 0.5s;
+  z-index: -1;
 
   .icon {
     position: absolute;
@@ -34,4 +36,5 @@
 
 .isOpen {
   opacity: 0.9;
+  z-index: $hamburger-z-index;
 }
